@@ -1,0 +1,38 @@
+*, :after, :before {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    background-color: #202020;  
+    font-family: Merriweather;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text__logo{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 25vh;
+}
+
+.a__logo1{
+    color: antiquewhite;
+}
+
+.logo{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
